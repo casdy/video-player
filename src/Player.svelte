@@ -1,6 +1,5 @@
 <script>
   export let showFloat;
-
   let videoCont;
   let Player;
 
@@ -20,6 +19,9 @@
   {#if showFloat}
     <div id="close-icon" on:click={hideSmallPlayer}>X</div>
   {/if}
+
+  // video from :
+  https://www.istockphoto.com/video/time-lapse-sunrise-over-mountain-with-mist-and-fog-cloud-gm1125217870-295706751?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_video_noresults&referrer_url=https%253A//pixabay.com/videos/fog-mountains-road-foggy-dramatic-53358/&utm_term=
 
   <video
     class="vid-player"
